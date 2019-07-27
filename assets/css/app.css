@@ -1,0 +1,64 @@
+/* This file is for your main application css. */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #000000;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.container {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 0 2rem;
+  position: relative;
+  width: 100%;
+}
+.product {
+  border: 1px solid grey;
+  margin: 10px 10px 10px 0px;
+}
+
+.product div {
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+}
+
+.error {
+  color: red;
+}
+
+button {
+  background-color: #0069d9;
+  border: 0.1rem solid #0069d9;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 2.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.2rem;
+  padding: 0 3rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+input {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 2rem;
+  width: 20rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  margin-right: 3rem;
+}
